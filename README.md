@@ -1,5 +1,7 @@
 # Angootha — read it to me before I sign
 
+**Live demo (hackathon venue Wi-Fi):** http://10.51.13.82:8501 — open it on any phone or laptop connected to the same Wi-Fi.
+
 Millions of Indians sign with a thumbprint (*angootha*) on papers they cannot read: moneylender loans, land and lease papers, job contracts, consent forms. Angootha reads the paper aloud in their language, marks the dangerous lines **on the photo itself**, and runs a **teach-back check** to confirm they understood before they sign.
 
 ## Pipeline (all Sarvam AI)
