@@ -5,8 +5,8 @@ import streamlit as st
 
 import pipeline as p
 
-st.set_page_config(page_title="Angootha", page_icon="🖐️", layout="wide")
-st.title("🖐️ Angootha")
+st.set_page_config(page_title="Angootha", layout="wide")
+st.title("Angootha")
 st.markdown("**अंगूठा लगाने से पहले, सुन लीजिए।** Photograph any paper before you put your thumbprint on it. "
             "Angootha reads it, marks the dangerous lines, explains them aloud in your language, "
             "and checks that you really understood before you sign.")
@@ -34,7 +34,7 @@ else:
     if src:
         img, name = src.getvalue(), getattr(src, "name", "photo.jpg")
 
-if img and st.button("📖 Read this paper to me", type="primary"):
+if img and st.button("Read this paper to me", type="primary"):
     S.pop("verdict", None)
     cached = p.SAMPLES / f"loan_result_{lang}.json"
     try:
@@ -61,13 +61,13 @@ if R:
     with right:
         reds = sum(f["severity"] == "red" for f in rep["flags"])
         if reds:
-            st.error(f"⚠️ {reds} dangerous line(s) found")
-        st.subheader("🔊 What this paper says")
+            st.error(f"{reds} dangerous line(s) found")
+        st.subheader("What this paper says")
         st.audio(R["wav"], format="audio/wav")
         st.markdown(f"#### {rep['summary']}")
         for n, f in enumerate(rep["flags"], 1):
-            icon = "🔴" if f["severity"] == "red" else "🟠"
-            st.markdown(f"{icon} **{n}. {f['title']}** — {f['explain']}")
+            color = "red" if f["severity"] == "red" else "orange"
+            st.markdown(f":{color}[**{n}. {f['title']}**] — {f['explain']}")
         if rep.get("questions"):
             st.markdown("**Ask before signing:**")
             for q in rep["questions"]:
@@ -82,10 +82,10 @@ if R:
         st.caption("Showing a saved run of the sample (live times shown). Untick the sample to try your own paper.")
 
     st.divider()
-    st.subheader("🖐️ Before your thumbprint: tell us in your own words")
+    st.subheader("Before your thumbprint: tell us in your own words")
     st.write("What are you agreeing to? Speak for 10–20 seconds. We'll check you understood the dangers.")
     audio = st.audio_input("Record your explanation")
-    if audio and st.button("✅ Check my understanding"):
+    if audio and st.button("Check my understanding"):
         try:
             with st.spinner("Listening (Saaras) and checking (Sarvam-105B)…"):
                 tr, v, tt = p.teach_back(audio.getvalue(), rep, lang)
@@ -99,9 +99,9 @@ if R:
     if V:
         st.caption(f"You said: “{V['transcript']}”")
         if V["v"]["understood"]:
-            st.success("✅ You understood the risks. The decision is yours.")
+            st.success("You understood the risks. The decision is yours.")
         else:
-            st.warning("⚠️ Don't put your thumbprint yet. Listen again to what you missed.")
+            st.warning("Don't put your thumbprint yet. Listen again to what you missed.")
             for m in V["v"]["missed"]:
                 st.markdown(f"- {m}")
         st.markdown(f"#### {V['v']['feedback']}")

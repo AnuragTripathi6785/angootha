@@ -1,4 +1,4 @@
-# 🖐️ Angootha — read it to me before I sign
+# Angootha — read it to me before I sign
 
 Millions of Indians sign with a thumbprint (*angootha*) on papers they cannot read: moneylender loans, land and lease papers, job contracts, consent forms. Angootha reads the paper aloud in their language, marks the dangerous lines **on the photo itself**, and runs a **teach-back check** to confirm they understood before they sign.
 

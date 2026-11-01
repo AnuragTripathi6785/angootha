@@ -14,7 +14,7 @@
   },
   {
    "id": "p1-b2",
-   "text": "This agreement is made on 12/10/2026 between Shri Ramesh Gupta, Moneylender, Sitapur (the \"Lender\") and __________________ (the \"Borrower\").",
+   "text": "This agreement is made on 12/10/2026 between Shri Ramesh Gupta, Moneylender, Sitapur (the \"Lender\") and ___________________ (the \"Borrower\").",
    "bbox": [
     0.06774193548387097,
     0.1088939566704675,
@@ -146,67 +146,67 @@
   }
  ],
  "report": {
-  "summary": "इस पत्र में आपका ₹50,000 का ऋण और आपकी जमीन जोखिम में डाल दी जाती है यदि आप एक भी भुगतान चूक जाते हैं, जबकि ऋणदाता ब्याज बढ़ा सकता है और आपको अदालत से बाहर कर सकता है। नाम की खाली पंक्ति का मतलब है ऋणदाता किसी भी व्यक्ति को ऋणकर्ता के रूप में लिख सकता है। प्रत्येक खाली स्थान भर जाने और प्रत्येक रुपये की लागत को समझने तक हस्ताक्षर न करें।",
+  "summary": "इस कागज से ऋणदाता आपकी जमीन तुरंत ले सकता है और जब चाहे तब पैसे के नियमों को बदल सकता है। ब्याज बहुत अधिक है, देर से भुगतान करने पर दैनिक जुर्माने लगते हैं और आप अदालत जाने का अधिकार खो देते हैं। एक भरोसेमंद व्यक्ति द्वारा इन अनुचित रेखाओं को पार करने तक हस्ताक्षर न करें।",
   "flags": [
-   {
-    "block_id": "p1-b2",
-    "severity": "red",
-    "title": "खाली हस्ताक्षरकर्ता नाम",
-    "explain": "आपका नाम खाली छोड़ा गया है। ऋणदाता कोई भी नाम लिख सकता है, यहाँ तक कि किसी और का भी, इसलिए कानून गलत व्यक्ति को जिम्मेदार ठहरा सकता है या बाद में सौदे को बदल सकता है।",
-    "title_en": "blank signer name",
-    "explain_en": "Your name is left blank. The lender could write any name, even someone else, so the law might hold the wrong person responsible or change the deal later."
-   },
    {
     "block_id": "p1-b4",
     "severity": "red",
-    "title": "अत्याधिक ब्याज",
-    "explain": "ऋणदाता प्रत्येक माह 3% ब्याज लेता है। 50,000 रुपये के ऋण पर, जो 1,500 रुपये प्रत्येक माह है, जो एक वर्ष में 18,000 रुपये हो जाता है।",
-    "title_en": "high interest",
-    "explain_en": "The lender charges 3% interest every month. On a ₹50,000 loan, that is ₹1,500 each month, which becomes ₹18,000 in one year."
+    "title": "उच्च ब्याज",
+    "explain": "आप हर महीने 3% ब्याज देते हैं। ₹50,000 के ऋण पर, अर्थात् ₹1,500 प्रति माह, या एक वर्ष में ₹18,000 अतिरिक्त, पर।",
+    "title_en": "High interest",
+    "explain_en": "You pay 3% interest every month. On a ₹50,000 loan, that is ₹1,500 every month, or ₹18,000 extra in one year."
    },
    {
     "block_id": "p1-b6",
     "severity": "red",
     "title": "दंड",
-    "explain": "यदि आप एक सप्ताह भी देर से भुगतान करते हैं, तो प्रत्येक अतिरिक्त दिन के लिए ₹500 का जुर्माना लगेगा। एक सप्ताह विलम्ब का अर्थ है ब्याज के अतिरिक्त ₹3,500 अतिरिक्त दंड।",
-    "title_en": "penalties",
-    "explain_en": "If you pay even one week late, there is a ₹500 penalty for each extra day. One week late means ₹3,500 in extra penalties on top of interest."
-   },
-   {
-    "block_id": "p1-b7",
-    "severity": "red",
-    "title": "संपत्ति हानि",
-    "explain": "आपके कृषि भूमि का उपयोग ऋण के लिए प्रतिभूति के रूप में किया जाता है। यदि आप भुगतान नहीं करते हैं, तो ऋणदाता इसे रख सकता है।",
-    "title_en": "loss of property",
-    "explain_en": "Your agricultural land is used as security for the loan. If you do not pay, the lender can keep it."
+    "explain": "यदि आप एक दिन की भी चुकौती चूक जाते हैं, तो आपको प्रतिदिन ₹500 अतिरिक्त देना होगा। चार दिन देर से होने का मतलब है कि आपने उधार लिए गए 50,000 रुपये से 2,000 रुपये अधिक चुकाना है।",
+    "title_en": "Penalty",
+    "explain_en": "If you miss a payment by even one day, you owe ₹500 extra per day. Being four days late means paying ₹2,000 more than the ₹50,000 you borrowed."
    },
    {
     "block_id": "p1-b8",
     "severity": "red",
     "title": "संपत्ति हानि",
-    "explain": "यदि आप केवल एक भुगतान चूकते हैं, तो ऋणदाता बिना किसी सूचना के और अदालत जाने के बिना आपके खेत पर कब्जा कर सकता है।",
-    "title_en": "loss of property",
-    "explain_en": "If you miss just one payment, the lender can take possession of your land without any notice and without going to court."
+    "explain": "यदि आप एक भी भुगतान चूकते हैं, तो ऋणदाता अगले दिन ही आपके खसरा नंबर 214 की जमीन जब्त कर सकता है-बिना किसी सूचना, बिना किसी अदालत के और बिना किसी स्पष्टीकरण के।",
+    "title_en": "Loss of property",
+    "explain_en": "If you miss even one payment, the lender can seize your Khasra No. 214 land the very next day—without notice, without a court, and without any chance to explain."
    },
    {
     "block_id": "p1-b9",
     "severity": "red",
     "title": "एकपक्षीय परिवर्तन",
-    "explain": "ऋणदाता किसी भी संख्या से 6% या उससे अधिक ब्याज दर किसी भी समय बढ़ा सकता है। इससे आपकी मासिक किस्त ₹1,500 से ₹3,000 हो जाएगी।",
-    "title_en": "one-sided changes",
-    "explain_en": "The lender can raise the interest rate anytime they want from any number to 6% or more. That would double your monthly payment from ₹1,500 to ₹3,000."
+    "explain": "ऋणदाता किसी भी समय आपके ब्याज दर को बढ़ा सकता है, इसलिए आपके ₹1,500 मासिक शुल्क बिना आपकी सहमति के अचानक बहुत अधिक हो सकता है।",
+    "title_en": "One-sided changes",
+    "explain_en": "The lender can raise your interest rate anytime, so your ₹1,500 monthly charge could suddenly become much higher without your agreement."
+   },
+   {
+    "block_id": "p1-b10",
+    "severity": "red",
+    "title": "अधिकारो का बहिष्कार",
+    "explain": "आप इस बात से सहमत हैं कि आप शिकायत करने के लिए किसी भी अदालत में नहीं जा सकते, इसलिए भले ही ऋणदाता आपकी जमीन ले ले, लेकिन आपके पास मदद के लिए कोई पुलिस या न्यायाधीश नहीं है।",
+    "title_en": "Waived rights",
+    "explain_en": "You agree you cannot go to any court to complain, so even if the lender takes your land, you have no police or judge to help."
+   },
+   {
+    "block_id": "p1-b7",
+    "severity": "amber",
+    "title": "संपत्ति हानि",
+    "explain": "आप अपनी खेती की जमीन को प्रतिभूति के रूप में देने का वादा करते हैं। यदि आप भुगतान नहीं कर सकते हैं, तो ऋणदाता आपके नकद के बजाय आपकी गाँव की भूमि रख सकता है।",
+    "title_en": "Loss of property",
+    "explain_en": "You promise your farming land as security. If you cannot pay, the lender can keep your village land instead of your cash."
    }
   ],
   "questions": [
-   "आप अंगूठे के निशान से पहले ऋणदाता खाली स्थान में कौन सा नाम लिखेंगे?",
-   "क्या आप अपनी कृषि भूमि को जोखिम में डाले बिना हर महीने ₹1,500 के साथ-साथ संभावित दैनिक दंडों का भी खर्च वहन कर सकते हैं?"
+   "क्या एक भरोसेमंद व्यक्ति ने प्रत्येक हानिकारक खंड को, विशेष रूप से ₹1,500 ब्याज और ₹500 जुर्माना खंडों को, आपकी भाषा में ज़ोर से पढ़ा है ताकि आप समझ सकें कि प्रत्येक टूटे हुए नियम की कीमत क्या है?",
+   "क्या आप अपनी अंगुली से मुहर लगाने से पहले ऋणदाता एकतरफा ब्याज परिवर्तन और अदालत के नियम को हटा देगा?"
   ],
-  "summary_en": "This paper puts your ₹50,000 loan and your land at risk if you miss even one payment, while letting the lender raise interest and locking you out of court. The blank name line means the lender could write any person as the borrower. Do not sign until every blank is filled and every rupee cost is understood."
+  "summary_en": "This paper lets the lender take your land instantly and change the money rules whenever they want. The interest is very high, late payments mean daily fines, and you lose all right to go to court. Do not sign until a trusted person crosses out these unfair lines."
  },
  "timings_ms": {
-  "vision": 1994,
-  "analyze": 64749,
-  "translate": 3985,
-  "speak": 50706
+  "vision": 2525,
+  "analyze": 71150,
+  "translate": 2484,
+  "speak": 6471
  }
 }
