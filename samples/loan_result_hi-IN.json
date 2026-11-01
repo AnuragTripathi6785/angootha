@@ -1,0 +1,212 @@
+{
+ "lang": "hi-IN",
+ "blocks": [
+  {
+   "id": "p1-b1",
+   "text": "LOAN AGREEMENT",
+   "bbox": [
+    0.3604838709677419,
+    0.053021664766248575,
+    0.6370967741935484,
+    0.07297605473204105
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b2",
+   "text": "This agreement is made on 12/10/2026 between Shri Ramesh Gupta, Moneylender, Sitapur (the \"Lender\") and __________________ (the \"Borrower\").",
+   "bbox": [
+    0.06774193548387097,
+    0.1088939566704675,
+    0.7814516129032258,
+    0.14823261117445838
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b3",
+   "text": "1. The Lender agrees to lend the Borrower a sum of Rs. 50,000 (Rupees Fifty Thousand only).",
+   "bbox": [
+    0.06854838709677419,
+    0.16020524515393386,
+    0.7370967741935484,
+    0.19897377423033066
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b4",
+   "text": "2. Interest shall be charged at 3% per month on the principal amount, payable on the 5th of every month.",
+   "bbox": [
+    0.06693548387096775,
+    0.2120866590649943,
+    0.7637096774193548,
+    0.250285062713797
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b5",
+   "text": "3. The Borrower shall repay the full principal within 12 months from the date of this agreement.",
+   "bbox": [
+    0.06854838709677419,
+    0.2628278221208666,
+    0.760483870967742,
+    0.3015963511972634
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b6",
+   "text": "4. If any monthly payment is delayed by more than 7 days, a penalty of Rs. 500 per day shall be charged.",
+   "bbox": [
+    0.06693548387096775,
+    0.31413911060433297,
+    0.7540322580645161,
+    0.35347776510832385
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b7",
+   "text": "5. The Borrower pledges agricultural land bearing Khasra No. 214, Village Rampur, as security for this loan.",
+   "bbox": [
+    0.06854838709677419,
+    0.3660205245153934,
+    0.7153225806451613,
+    0.40421892816419613
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b8",
+   "text": "6. In case of a single default, the Lender shall have the right to take possession of the said land without any further notice or court proceedings.",
+   "bbox": [
+    0.06693548387096775,
+    0.41733181299885974,
+    0.7129032258064516,
+    0.45610034207525657
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b9",
+   "text": "7. The Borrower agrees that the Lender may change the rate of interest at any time at his sole discretion.",
+   "bbox": [
+    0.06854838709677419,
+    0.46864310148232613,
+    0.7387096774193549,
+    0.5068415051311288
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b10",
+   "text": "8. The Borrower waives the right to dispute this agreement in any court of law.",
+   "bbox": [
+    0.06693548387096775,
+    0.5199543899657925,
+    0.7467741935483871,
+    0.5376282782212086
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b11",
+   "text": "Signature / Thumb impression of Borrower: _________________________",
+   "bbox": [
+    0.06774193548387097,
+    0.5815279361459521,
+    0.6016129032258064,
+    0.6003420752565565
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b12",
+   "text": "Signature of Lender: _________________________",
+   "bbox": [
+    0.06935483870967742,
+    0.6117445838084379,
+    0.40403225806451615,
+    0.6311288483466363
+   ],
+   "page": 1
+  },
+  {
+   "id": "p1-b13",
+   "text": "Witness: ___",
+   "bbox": [
+    0.44193548387096776,
+    0.6123147092360319,
+    0.675,
+    0.6311288483466363
+   ],
+   "page": 1
+  }
+ ],
+ "report": {
+  "summary": "इस पत्र में आपका ₹50,000 का ऋण और आपकी जमीन जोखिम में डाल दी जाती है यदि आप एक भी भुगतान चूक जाते हैं, जबकि ऋणदाता ब्याज बढ़ा सकता है और आपको अदालत से बाहर कर सकता है। नाम की खाली पंक्ति का मतलब है ऋणदाता किसी भी व्यक्ति को ऋणकर्ता के रूप में लिख सकता है। प्रत्येक खाली स्थान भर जाने और प्रत्येक रुपये की लागत को समझने तक हस्ताक्षर न करें।",
+  "flags": [
+   {
+    "block_id": "p1-b2",
+    "severity": "red",
+    "title": "खाली हस्ताक्षरकर्ता नाम",
+    "explain": "आपका नाम खाली छोड़ा गया है। ऋणदाता कोई भी नाम लिख सकता है, यहाँ तक कि किसी और का भी, इसलिए कानून गलत व्यक्ति को जिम्मेदार ठहरा सकता है या बाद में सौदे को बदल सकता है।",
+    "title_en": "blank signer name",
+    "explain_en": "Your name is left blank. The lender could write any name, even someone else, so the law might hold the wrong person responsible or change the deal later."
+   },
+   {
+    "block_id": "p1-b4",
+    "severity": "red",
+    "title": "अत्याधिक ब्याज",
+    "explain": "ऋणदाता प्रत्येक माह 3% ब्याज लेता है। 50,000 रुपये के ऋण पर, जो 1,500 रुपये प्रत्येक माह है, जो एक वर्ष में 18,000 रुपये हो जाता है।",
+    "title_en": "high interest",
+    "explain_en": "The lender charges 3% interest every month. On a ₹50,000 loan, that is ₹1,500 each month, which becomes ₹18,000 in one year."
+   },
+   {
+    "block_id": "p1-b6",
+    "severity": "red",
+    "title": "दंड",
+    "explain": "यदि आप एक सप्ताह भी देर से भुगतान करते हैं, तो प्रत्येक अतिरिक्त दिन के लिए ₹500 का जुर्माना लगेगा। एक सप्ताह विलम्ब का अर्थ है ब्याज के अतिरिक्त ₹3,500 अतिरिक्त दंड।",
+    "title_en": "penalties",
+    "explain_en": "If you pay even one week late, there is a ₹500 penalty for each extra day. One week late means ₹3,500 in extra penalties on top of interest."
+   },
+   {
+    "block_id": "p1-b7",
+    "severity": "red",
+    "title": "संपत्ति हानि",
+    "explain": "आपके कृषि भूमि का उपयोग ऋण के लिए प्रतिभूति के रूप में किया जाता है। यदि आप भुगतान नहीं करते हैं, तो ऋणदाता इसे रख सकता है।",
+    "title_en": "loss of property",
+    "explain_en": "Your agricultural land is used as security for the loan. If you do not pay, the lender can keep it."
+   },
+   {
+    "block_id": "p1-b8",
+    "severity": "red",
+    "title": "संपत्ति हानि",
+    "explain": "यदि आप केवल एक भुगतान चूकते हैं, तो ऋणदाता बिना किसी सूचना के और अदालत जाने के बिना आपके खेत पर कब्जा कर सकता है।",
+    "title_en": "loss of property",
+    "explain_en": "If you miss just one payment, the lender can take possession of your land without any notice and without going to court."
+   },
+   {
+    "block_id": "p1-b9",
+    "severity": "red",
+    "title": "एकपक्षीय परिवर्तन",
+    "explain": "ऋणदाता किसी भी संख्या से 6% या उससे अधिक ब्याज दर किसी भी समय बढ़ा सकता है। इससे आपकी मासिक किस्त ₹1,500 से ₹3,000 हो जाएगी।",
+    "title_en": "one-sided changes",
+    "explain_en": "The lender can raise the interest rate anytime they want from any number to 6% or more. That would double your monthly payment from ₹1,500 to ₹3,000."
+   }
+  ],
+  "questions": [
+   "आप अंगूठे के निशान से पहले ऋणदाता खाली स्थान में कौन सा नाम लिखेंगे?",
+   "क्या आप अपनी कृषि भूमि को जोखिम में डाले बिना हर महीने ₹1,500 के साथ-साथ संभावित दैनिक दंडों का भी खर्च वहन कर सकते हैं?"
+  ],
+  "summary_en": "This paper puts your ₹50,000 loan and your land at risk if you miss even one payment, while letting the lender raise interest and locking you out of court. The blank name line means the lender could write any person as the borrower. Do not sign until every blank is filled and every rupee cost is understood."
+ },
+ "timings_ms": {
+  "vision": 1994,
+  "analyze": 64749,
+  "translate": 3985,
+  "speak": 50706
+ }
+}

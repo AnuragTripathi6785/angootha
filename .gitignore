@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.wav
+BUILD_GUIDE.md
+outputs/
+.DS_Store
+.streamlit/secrets.toml
+!samples/*.wav
